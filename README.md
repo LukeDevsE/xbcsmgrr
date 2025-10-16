@@ -30,3 +30,4 @@ detect and generally deal with potential bad actors.
 
 ## Credits/References
 - [XboxAuthNet](https://github.com/AlphaBs/XboxAuthNet)
+- [Prism Launcher for OAuth](https://prismlauncher.org/)
