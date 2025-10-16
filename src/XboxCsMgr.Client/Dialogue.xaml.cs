@@ -31,7 +31,7 @@ namespace XboxCsMgr.Client
         }
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
-            Process.Start(new ProcessStartInfo("https://login.live.com/oauth20_authorize.srf?client_id=56d7a5b8-2113-4789-928e-981d3129227d&response_type=code&approval_prompt=auto&scope=Xboxlive.signin+Xboxlive.offline_access") { UseShellExecute = true });
+            Process.Start(new ProcessStartInfo("https://login.live.com/oauth20_authorize.srf?client_id=56d7a5b8-2113-4789-928e-981d3129227d&response_type=code&approval_prompt=auto&scope=XboxLive.signin&redirect_uri=https%3A%2F%2Flocalhost%2Foauth_success") { UseShellExecute = true });
         }
     }
 }
