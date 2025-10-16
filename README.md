@@ -6,7 +6,7 @@ Xbox Connected Storage Manager Revived
 ### Preview
 ![Application Screenshot](assets/screenshot_example.png)
 
-## How to use
+## How to login
 1. press the Open Link button on the dialog when you open the program.
 2. Click authorize
 3. enter the code after ?code= and press Ok
