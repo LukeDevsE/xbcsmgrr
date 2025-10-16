@@ -1,9 +1,16 @@
-Xbox Connected Storage Manager
+Xbox Connected Storage Manager Revived
 ======================================
 *A quickly written application to easily interact with Xbox Live game save data.*
 
+
 ### Preview
 ![Application Screenshot](assets/screenshot_example.png)
+
+## How to use
+1. press the Open Link button on the dialog when you open the program.
+2. Click authorize
+3. enter the code after ?code= and press Ok
+4. you are now logged into xbcsmgrr (anytime you close it, you will have to log back in)
 
 ## Requirements
 - Windows 10+
@@ -21,5 +28,6 @@ There are features missing, or removed for reasons, so it will appear more bareb
 I believe that everyone has the right to access and modify their game save data on the games that they play. Despite potential issues for cheating, there are systems and report functionality in place to help reduce,
 detect and generally deal with potential bad actors.
 
-## References
+## Credits/References
 - [XboxAuthNet](https://github.com/AlphaBs/XboxAuthNet)
+- [Prism Launcher for the OAUTH](https://prismlauncher.org/)
