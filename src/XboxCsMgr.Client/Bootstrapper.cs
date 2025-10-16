@@ -23,7 +23,7 @@ namespace XboxCsMgr.Client
         private AuthenticateService authenticateService;
         //private string DeviceToken { get; set; }
         private string UserToken = "";
-        public string CLIENT_ID = "c36a9fb6-4f2a-41ff-90bd-ae7cc92031eb"; //prism launchers
+        public string CLIENT_ID = "56d7a5b8-2113-4789-928e-981d3129227d";
         protected override void ConfigureIoC(StyletIoC.IStyletIoCBuilder builder)
         {
             base.ConfigureIoC(builder);

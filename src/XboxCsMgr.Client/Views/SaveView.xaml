@@ -48,6 +48,11 @@
                         <StackPanel Orientation="Horizontal" HorizontalAlignment="Stretch" Height="20">
                             <ContentControl Template="{Binding Converter={StaticResource HierarchyNodeToIconConverter}}"/>
                             <TextBlock Text="{Binding BlobName}" FontSize="12"/>
+                            <StackPanel.ContextMenu>
+                                <ContextMenu>
+                                    <MenuItem Header="Download" Command="{s:Action DownloadFolder}"/>
+                                </ContextMenu>
+                            </StackPanel.ContextMenu>
                         </StackPanel>
                     </HierarchicalDataTemplate>
                     <HierarchicalDataTemplate DataType="{x:Type vmc:SavedAtomsViewModel}" ItemsSource="{Binding Children}">
@@ -57,7 +62,6 @@
                             <StackPanel.ContextMenu>
                                 <ContextMenu>
                                     <MenuItem Header="Download" Command="{s:Action Download}"/>
-                                    <MenuItem Header="Upload" Command="{s:Action Upload}"/>
                                 </ContextMenu>
                             </StackPanel.ContextMenu>
                         </StackPanel>

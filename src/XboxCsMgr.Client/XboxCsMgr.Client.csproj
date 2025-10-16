@@ -8,6 +8,7 @@
     <ApplicationIcon>xboxcloudicon.ico</ApplicationIcon>
     <BaseIntermediateOutputPath>..\..\build\XboxCsMgr.Client\</BaseIntermediateOutputPath>
     <BaseOutputPath>..\..\bin\</BaseOutputPath>
+    <UseWindowsForms>True</UseWindowsForms>
   </PropertyGroup>
 
   <ItemGroup>
