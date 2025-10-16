@@ -44,7 +44,7 @@ namespace XboxCsMgr.XboxLive.Services
             {
                 { "client_id", ClientId },
                 { "grant_type", "authorization_code" },
-                { "redirect_uri", redirectUrl },
+                { "redirect_uri", "" },
                 { "scope", Scope }
             };
         }

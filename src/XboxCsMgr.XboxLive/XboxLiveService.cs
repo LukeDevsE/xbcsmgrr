@@ -3,6 +3,7 @@ using Newtonsoft.Json.Serialization;
 using Org.BouncyCastle.Ocsp;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Text;
@@ -103,9 +104,7 @@ namespace XboxCsMgr.XboxLive
             try
             {
                 res.EnsureSuccessStatusCode();
-                return await res.Content.ReadAsJsonAsync<T>()
-                    .ConfigureAwait(false)
-                    ?? throw new JsonException();
+                return await res.Content.ReadAsJsonAsync<T>().ConfigureAwait(false) ?? throw new JsonException();
             }
             catch (Exception ex) when (
                 ex is JsonException ||
