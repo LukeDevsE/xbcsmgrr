@@ -13,20 +13,23 @@ Xbox Connected Storage Manager Revived
 4. you are now logged into xbcsmgrr (anytime you close it, you will have to log back in)
 
 ## Requirements
-- Windows 10+
-- GamingServices
+- Windows (wine on linux might work too)
+- an internet connection
 - Any game that uses Xbox Live (*installed and played recently*)
 
 ## Background
-Accessing games using Xbox Live's save data requires authorization for the 'TitleStorage' service. This requires a device authenticated token and user token. However, the device token originally went through
-a Microsoft SOAP-based stage which required more effort than it was worth. Instead, utilizing the 'wincred' storage was helpful as this is where the relevant Gaming Services on Windows caches tokens. I created
-this application to make the process more clean and easier.
-
-There are features missing, or removed for reasons, so it will appear more barebones than it previous and privately was. Again, this is a slightly reworked version that has been private for a few years now.
+Accessing games using Xbox Live's save data requires authorization for the 'TitleStorage' service. This requires a user token. I created this application to make the process more clean and easier.
 
 ## Why?
-I believe that everyone has the right to access and modify their game save data on the games that they play. Despite potential issues for cheating, there are systems and report functionality in place to help reduce,
-detect and generally deal with potential bad actors.
+I believe that everyone has the right to access their game save data on the games that they play. (if you no longer own a game, you can transfer your save files to your pc)
+
+## Known working games (as in games you can download save files from)
+- UNDERTALE (possibly DELTARUNE)
+- Minecraft: Xbox One Edition
+- Slime Rancher
+- HITMAN 3
+
+Basically any singleplayer game
 
 ## Credits/References
 - [XboxAuthNet](https://github.com/AlphaBs/XboxAuthNet)
