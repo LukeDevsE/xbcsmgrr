@@ -17,12 +17,6 @@ Xbox Connected Storage Manager Revived
 - an internet connection
 - Any game that uses Xbox Live (*installed and played recently*)
 
-## Background
-Accessing games using Xbox Live's save data requires authorization for the 'TitleStorage' service. This requires a user token. I created this application to make the process more clean and easier.
-
-## Why?
-I believe that everyone has the right to access their game save data on the games that they play. (if you no longer own a game, you can transfer your save files to your pc)
-
 ## Known working games (as in games you can download save files from)
 - UNDERTALE (possibly DELTARUNE)
 - Minecraft: Xbox One Edition
@@ -30,6 +24,12 @@ I believe that everyone has the right to access their game save data on the game
 - HITMAN 3
 
 Basically any singleplayer game
+
+## Background
+Accessing games using Xbox Live's save data requires authorization for the 'TitleStorage' service. This requires a user token. I created this application to make the process more clean and easier.
+
+## Why?
+I believe that everyone has the right to access their game save data on the games that they play. (if you no longer own a game, you can transfer your save files to your pc)
 
 ## Credits/References
 - [XboxAuthNet](https://github.com/AlphaBs/XboxAuthNet)
